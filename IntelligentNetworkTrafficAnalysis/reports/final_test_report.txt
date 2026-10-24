@@ -1,0 +1,20 @@
+Selected model: Random Forest
+
+Accuracy: 0.9983
+Attack precision: 0.9954
+Attack recall: 0.9954
+Attack F1-score: 0.9954
+
+Classification report:
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00     22239
+      Attack       1.00      1.00      1.00      4974
+
+    accuracy                           1.00     27213
+   macro avg       1.00      1.00      1.00     27213
+weighted avg       1.00      1.00      1.00     27213
+
+Confusion matrix:
+[[22216    23]
+ [   23  4951]]
